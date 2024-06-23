@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar Cartones de Bingo Personalizados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Descargar Cartones de Bingo Personalizados</h1>
+        <form id="bingoForm">
+            <label for="code">Introduce tu código:</label>
+            <input type="text" id="code" name="code" required>
+            <button type="submit">Generar Cartón</button>
+        </form>
+        <div id="bingoCardContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
